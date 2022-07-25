@@ -1,0 +1,15 @@
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\bin\Debug\net6.0\Sort2750.exe
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\bin\Debug\net6.0\Sort2750.deps.json
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\bin\Debug\net6.0\Sort2750.runtimeconfig.json
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\bin\Debug\net6.0\Sort2750.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\bin\Debug\net6.0\ref\Sort2750.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\bin\Debug\net6.0\Sort2750.pdb
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\obj\Debug\net6.0\Sort2750.csproj.AssemblyReference.cache
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\obj\Debug\net6.0\Sort2750.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\obj\Debug\net6.0\Sort2750.AssemblyInfoInputs.cache
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\obj\Debug\net6.0\Sort2750.AssemblyInfo.cs
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\obj\Debug\net6.0\Sort2750.csproj.CoreCompileInputs.cache
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\obj\Debug\net6.0\Sort2750.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\obj\Debug\net6.0\ref\Sort2750.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\obj\Debug\net6.0\Sort2750.pdb
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\Sort2750\Sort2750\obj\Debug\net6.0\Sort2750.genruntimeconfig.cache
