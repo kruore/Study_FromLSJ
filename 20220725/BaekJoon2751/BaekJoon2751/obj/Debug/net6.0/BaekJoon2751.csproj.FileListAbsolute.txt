@@ -1,0 +1,15 @@
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\bin\Debug\net6.0\BaekJoon2751.exe
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\bin\Debug\net6.0\BaekJoon2751.deps.json
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\bin\Debug\net6.0\BaekJoon2751.runtimeconfig.json
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\bin\Debug\net6.0\BaekJoon2751.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\bin\Debug\net6.0\ref\BaekJoon2751.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\bin\Debug\net6.0\BaekJoon2751.pdb
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\obj\Debug\net6.0\BaekJoon2751.csproj.AssemblyReference.cache
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\obj\Debug\net6.0\BaekJoon2751.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\obj\Debug\net6.0\BaekJoon2751.AssemblyInfoInputs.cache
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\obj\Debug\net6.0\BaekJoon2751.AssemblyInfo.cs
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\obj\Debug\net6.0\BaekJoon2751.csproj.CoreCompileInputs.cache
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\obj\Debug\net6.0\BaekJoon2751.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\obj\Debug\net6.0\ref\BaekJoon2751.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\obj\Debug\net6.0\BaekJoon2751.pdb
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220725\BaekJoon2751\BaekJoon2751\obj\Debug\net6.0\BaekJoon2751.genruntimeconfig.cache
