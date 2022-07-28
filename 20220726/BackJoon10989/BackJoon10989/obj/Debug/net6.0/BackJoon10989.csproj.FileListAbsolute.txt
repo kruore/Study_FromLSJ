@@ -1,0 +1,15 @@
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\bin\Debug\net6.0\BackJoon10989.exe
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\bin\Debug\net6.0\BackJoon10989.deps.json
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\bin\Debug\net6.0\BackJoon10989.runtimeconfig.json
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\bin\Debug\net6.0\BackJoon10989.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\bin\Debug\net6.0\ref\BackJoon10989.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\bin\Debug\net6.0\BackJoon10989.pdb
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\obj\Debug\net6.0\BackJoon10989.csproj.AssemblyReference.cache
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\obj\Debug\net6.0\BackJoon10989.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\obj\Debug\net6.0\BackJoon10989.AssemblyInfoInputs.cache
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\obj\Debug\net6.0\BackJoon10989.AssemblyInfo.cs
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\obj\Debug\net6.0\BackJoon10989.csproj.CoreCompileInputs.cache
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\obj\Debug\net6.0\BackJoon10989.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\obj\Debug\net6.0\ref\BackJoon10989.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\obj\Debug\net6.0\BackJoon10989.pdb
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220726\BackJoon10989\BackJoon10989\obj\Debug\net6.0\BackJoon10989.genruntimeconfig.cache
