@@ -1,0 +1,4 @@
+﻿  program.cpp
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220729\Baekjoon10814\Baekjoon10814\program.cpp(11,1): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220729\Baekjoon10814\Baekjoon10814\program.cpp(32,6): error C2084: 'bool compare(std::pair<int,std::string>,std::pair<int,std::string>)' 함수에 이미 본문이 있습니다.
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220729\Baekjoon10814\Baekjoon10814\program.cpp(13): message : 'compare'의 이전 정의를 참조하십시오.
