@@ -1,0 +1,15 @@
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\bin\Debug\net6.0\BeckJoon1085.exe
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\bin\Debug\net6.0\BeckJoon1085.deps.json
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\bin\Debug\net6.0\BeckJoon1085.runtimeconfig.json
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\bin\Debug\net6.0\BeckJoon1085.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\bin\Debug\net6.0\BeckJoon1085.pdb
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\obj\Debug\net6.0\BeckJoon1085.csproj.AssemblyReference.cache
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\obj\Debug\net6.0\BeckJoon1085.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\obj\Debug\net6.0\BeckJoon1085.AssemblyInfoInputs.cache
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\obj\Debug\net6.0\BeckJoon1085.AssemblyInfo.cs
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\obj\Debug\net6.0\BeckJoon1085.csproj.CoreCompileInputs.cache
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\obj\Debug\net6.0\BeckJoon1085.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\obj\Debug\net6.0\refint\BeckJoon1085.dll
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\obj\Debug\net6.0\BeckJoon1085.pdb
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\obj\Debug\net6.0\BeckJoon1085.genruntimeconfig.cache
+C:\Users\kruore\Documents\GitHub\Study_FromLSJ\20220808\BeckJoon1085\BeckJoon1085\obj\Debug\net6.0\ref\BeckJoon1085.dll
