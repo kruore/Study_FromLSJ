@@ -1,102 +1,103 @@
 ﻿#include <iostream>
 #include <vector>
-#define MAXSIZE 81
-#define X_codinate 9
-#define Y_codinate 9
+#include <algorithm>
 using namespace std;
-
-/// <summary>
-/// 스도쿠 룰에 따라서 재 규약
-/// 1. 스도쿠는 1라인을 따라서 1~9의 숫자를 넣는다.
-/// 2. 스도쿠는 9칸을 1~9로 놓는다.
-/// 3. 스도쿠는 한번이라도 완성되면 그게 최고라고 둔다.
-/// 4. 해당 스도쿠는 백트래킹을 통해 완성할 수 있다.
-/// </summary>
-
-int board[X_codinate][Y_codinate] = { 0, };
-bool Checker(int x);
-void Sudoku(int x);
-pair<int, int> combination;
-vector<pair<int, int>> remember;
-bool check = false;
+const int Max = 45;
+void Sudoku(int sudoku[9][9], vector<pair<int, int>> zeros, int addlines[27]);
+bool checker = false;
 int main()
 {
-	//입력
-	for (int i = 0; i < X_codinate; i++)
-	{
-		for (int j = 0; j < Y_codinate; j++)
-		{
-			cin >> board[i][j];
-			if (board[i][j] == 0)
-			{
-				combination.first = i;
-				combination.second = j;
-				remember.push_back(combination);
-			}
-		}
-	}
-	Sudoku(0);
+    int sudokuquestion[9][9];
+    int addlines[27] = { 0 };
+    vector<pair<int, int>> zeros;
+    for (int i = 0; i < 9; i++)
+    {
+        for (int j = 0; j < 9; j++)
+        {
+            int index = i * 9 + j;
+            cin >> sudokuquestion[i][j];
+            if (sudokuquestion[i][j] == 0)
+            {
+                zeros.push_back(make_pair(i, j));
+            }
+            //가로줄
+            addlines[i] += sudokuquestion[i][j];
+            //세로줄
+            addlines[9 + j] += sudokuquestion[i][j];
+            //네모칸
+            addlines[18 + (i / 3) * 3 + (j / 3)] += sudokuquestion[i][j];
+        }
+    }
+    Sudoku(sudokuquestion, zeros, addlines);
+    return 0;
 }
-void Sudoku(int x)
+void Sudoku(int sudoku[9][9], vector<pair<int, int>> zeros, int addlines[27])
 {
-	if (!check)
-	{
-		if (x == remember.size())
-		{
-			for (int i = 0; i < X_codinate; i++)
-			{
-				for (int j = 0; j < Y_codinate; j++)
-				{
-					cout << board[i][j] << " ";
-				}
-				cout << "\n";
-			}
-			check = true;
-			return;
-		}
-		else
-		{
-			for (int i = 1; i <= 9; i++)
-			{
-				if (check)
-				{
-					return;
-				}
-				board[remember[x].first][remember[x].second] = i;
-				if (Checker(x))
-				{
-					Sudoku(x + 1);
-				}
-			}
-			board[remember[x].first][remember[x].second] = 0;
-		}
-	}
-}
-bool Checker(int x)
-{
-	int square_x = remember[x].first / 3;
-	int square_y = remember[x].second / 3;
-	for (int i = 0; i < 9; i++)
-	{
-		//가로
-		if (board[remember[x].first][i] == board[remember[x].first][remember[x].second] && i != remember[x].second)return false;
-		//세로
-		if (board[i][remember[x].second] == board[remember[x].first][remember[x].second] && i != remember[x].first)return false;
-	}
+    bool check = true;
+    if (zeros.size() == 0)
+    {
+        if (!checker)
+        {
+            for (int i = 0; i < 9; i++)
+            {
+                for (int j = 0; j < 9; j++)
+                {
+                    cout << sudoku[i][j] << " ";
+                }
+                cout << "\n";
+            }
+            checker = true;
+            return;
+        }
+    }
+    else
+    {
+        int i = 0;
+        {
+            vector<int> countnumbers = { 1,2,3,4,5,6,7,8,9 };
+            for (int j = 0; j < 9; j++)
+            {
+                if (countnumbers.size() == 0)
+                {
+                    break;
+                }
+                int index = zeros[i].first * 9 + j;
+                if (sudoku[zeros[i].first][j] != 0)
+                {
+                    countnumbers.erase(remove(countnumbers.begin(), countnumbers.end(), sudoku[zeros[i].first][j]), countnumbers.end());
+                }
+                index = j * 9 + zeros[i].second;
+                if (sudoku[j][zeros[i].second] != 0)
+                {
+                    countnumbers.erase(remove(countnumbers.begin(), countnumbers.end(), sudoku[j][zeros[i].second]), countnumbers.end());
+                }
+                int indexx = (zeros[i].first / 3) * 3 + (j / 3), indexy = (zeros[i].second / 3) * 3 + j % 3;
+                if (sudoku[indexx][indexy] != 0)
+                {
+                    countnumbers.erase(remove(countnumbers.begin(), countnumbers.end(), sudoku[indexx][indexy]), countnumbers.end());
+                }
+            }
+            if (countnumbers.size() != 0)
+            {
+                for (int j = 0; j < countnumbers.size(); j++)
+                {
+                    sudoku[zeros[i].first][zeros[i].second] = countnumbers[j];
+                    //가로줄
+                    addlines[zeros[i].first] += sudoku[zeros[i].first][zeros[i].second];
+                    //세로줄
+                    addlines[9 + zeros[i].second] += sudoku[zeros[i].first][zeros[i].second];
+                    //네모칸
+                    addlines[18 + (zeros[i].first / 3) * 3 + (zeros[i].second / 3)] += sudoku[zeros[i].first][zeros[i].second];
+                    pair<int, int> a = (zeros[0]);
+                    zeros.erase(zeros.begin() + i);
 
-	//사각형
-	for (int j = square_x * 3; j < (square_x * 3) + 3; j++)
-	{
-		for (int z = square_y * 3; z < square_y * 3 + 3; z++)
-		{
-			if (board[j][z] == board[remember[x].first][remember[x].second])
-			{
-				if (j != remember[x].first && z != remember[x].second)
-				{
-					return false;
-				}
-			}
-		}
-	}
-	return true;
+                    Sudoku(sudoku, zeros, addlines);
+                    zeros.insert(zeros.begin(), a);
+                    sudoku[zeros[i].first][zeros[i].second] = 0;
+                    int k = zeros.size(), l = countnumbers.size();
+
+                }
+            }
+        }
+    }
 }
