@@ -3,7 +3,7 @@ using namespace std;
 
 
 int _length;
-int _minValue = 1000000000;
+int _minValue = INT_MAX;
 int _tempValue[20][20] = { 0 , };
 bool _check[21] = { false ,};
 void BackTracking(int count, int index);
