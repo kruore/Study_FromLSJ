@@ -1,0 +1,19 @@
+﻿  Baekjoon18258.cpp
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(54,6): error C2365: 'Queue<T>::front': 재정의: 이전 정의는 '멤버 함수'입니다.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(43): message : 'Queue<T>::front' 선언을 참조하십시오.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(59): message : 컴파일되는 클래스 템플릿 인스턴스화 'Queue<T>'에 대한 참조를 확인하세요.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(56,6): error C2365: 'Queue<T>::size': 재정의: 이전 정의는 '멤버 함수'입니다.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(34): message : 'Queue<T>::size' 선언을 참조하십시오.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(57,6): error C2365: 'Queue<T>::back': 재정의: 이전 정의는 '멤버 함수'입니다.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(38): message : 'Queue<T>::back' 선언을 참조하십시오.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(24,3): error C3861: 'stacks': 식별자를 찾을 수 없습니다.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(30,14): error C3861: 'stacks': 식별자를 찾을 수 없습니다.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(41,10): error C3861: 'slot': 식별자를 찾을 수 없습니다.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(46,10): error C3861: 'slot': 식별자를 찾을 수 없습니다.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(54,6): error C2365: 'Queue<int>::front': 재정의: 이전 정의는 '멤버 함수'입니다.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(43): message : 'Queue<int>::front' 선언을 참조하십시오.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(69): message : 컴파일되는 클래스 템플릿 인스턴스화 'Queue<int>'에 대한 참조를 확인하세요.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(56,6): error C2365: 'Queue<int>::size': 재정의: 이전 정의는 '멤버 함수'입니다.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(34): message : 'Queue<int>::size' 선언을 참조하십시오.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(57,6): error C2365: 'Queue<int>::back': 재정의: 이전 정의는 '멤버 함수'입니다.
+D:\github\Study_FromLSJ\20221024\Baekjoon18258\Baekjoon18258\Baekjoon18258.cpp(38): message : 'Queue<int>::back' 선언을 참조하십시오.
