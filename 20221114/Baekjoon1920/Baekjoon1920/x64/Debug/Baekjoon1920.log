@@ -1,0 +1,4 @@
+﻿  Baekjoon1920.cpp
+D:\github\Study_FromLSJ\20221114\Baekjoon1920\Baekjoon1920\Baekjoon1920.cpp(61,20): warning C4244: '인수': 'll'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\github\Study_FromLSJ\20221114\Baekjoon1920\Baekjoon1920\Baekjoon1920.cpp(52,6): warning C4101: 'data' :참조되지 않은 지역 변수입니다.
+  Baekjoon1920.vcxproj -> D:\github\Study_FromLSJ\20221114\Baekjoon1920\x64\Debug\Baekjoon1920.exe
